@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TikTakToe</string>
+    <string name="Bienvenida">Bienvenido al Triqui!</string>
+    <string name="turno1">Es turno del jugador 1</string>
+    <string name="turno2">Es turno del jugador 2</string>
+
 </resources>

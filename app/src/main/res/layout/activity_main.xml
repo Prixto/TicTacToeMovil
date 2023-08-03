@@ -11,12 +11,30 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="50dp"
+        android:padding="25dp"
+        android:text="@string/Bienvenida"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mostrarTurno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:text="@string/turno1"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
         android:text="Player One (X)"
-        android:textColor="@color/purple"
+        android:textColor="@color/red"
         android:textStyle="bold"/>
 
     <LinearLayout
+        android:id="@+id/gameZone"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -32,13 +50,15 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="" />
+                android:backgroundTint="@color/gray"
+                android:text=""/>
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="@color/gray"
                 android:text="" />
 
             <Button
@@ -46,6 +66,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="@color/gray"
                 android:text="" />
         </LinearLayout>
 
@@ -59,6 +80,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="@color/gray"
                 android:text="" />
 
             <Button
@@ -66,6 +88,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="@color/gray"
                 android:text="" />
 
             <Button
@@ -73,6 +96,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="@color/gray"
                 android:text="" />
 
         </LinearLayout>
@@ -87,6 +111,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="@color/gray"
                 android:text="" />
 
             <Button
@@ -94,6 +119,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="@color/gray"
                 android:text="" />
 
             <Button
@@ -101,6 +127,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="@color/gray"
                 android:text="" />
         </LinearLayout>
     </LinearLayout>
@@ -110,13 +137,14 @@
         android:layout_height="wrap_content"
         android:padding="50dp"
         android:text="Player Two (0)"
-        android:textColor="@color/gray"
+        android:textColor="@color/blue"
         android:textStyle="bold"/>
 
     <Button
         android:id="@+id/newGame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
         android:text="New Game" />
 
 </LinearLayout>
